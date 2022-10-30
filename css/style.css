@@ -1,0 +1,18 @@
+body::before{
+    display: block;
+    content: "";
+    height: 60px;
+}
+
+.header-icons{
+    font-size: 32px;
+    color: var(--text-color);
+    margin-right: 20px;
+    transition: all .36s ease;
+}
+
+@media (min-width: 768px) {
+    .news-input {
+        width: 50%; 
+    }
+}
